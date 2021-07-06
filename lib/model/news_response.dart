@@ -1,6 +1,6 @@
 import 'package:news_all_flutter/model/news.dart';
 
-class NewsResponse {
+class NewsResponse<T> {
   late final List<News> news;
   late final String error;
 
